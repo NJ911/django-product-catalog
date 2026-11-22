@@ -43,3 +43,4 @@ A simple Django web application that models products, categories, and tags, allo
 - **Fallback Display:** If an item is not found in the list, the page displays all available products across all categories.
 - **Combined Filtering:** Users can search by description and filter by category and tags individually or all at the same time.
 - **Tag Logic:** Selecting multiple tags displays products matching any of the selected tags.
+- **Sample Data:** sample_data.json is located in catalog/fixtures folder
