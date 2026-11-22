@@ -6,14 +6,14 @@ A simple Django web application that models products, categories, and tags, allo
 
 1. **Clone the repository**
    ```
-   git clone <your-repository-url>
+   git clone https://github.com/NJ911/django-product-catalog.git
    cd django-product-catalog
    ```
 
 2. **Create and activate a virtual environment**
    ```
    python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   source venv/bin/activate
    ```
 
 3. **Install dependencies**
