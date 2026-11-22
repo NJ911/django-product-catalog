@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Product Catalog</title>
+</head>
+<body>
+    <h1>Products</h1>
+    <form method="GET">
+        <input type="text" name="q" placeholder="Search description...">    <!--search bar for Products-->
+
+        <select name="category">
+            <option value="">All Categories</option>                        <!--default option is all categories-->
+            {% for cat in categories %}                                     <!--loop through categories and create an option for each category-->
+                <option value="{{ cat.id }}">{{ cat.name }}</option>
+            {% endfor %}
+        </select>
+
+        <div>
+            <strong>Tags:</strong>
+            {% for tag in tags %}                                                             <!--loop through tags and create a checkbox for each tag-->      
+                <label>
+                    <input type="checkbox" name="tags" value="{{ tag.id }}"> {{ tag.name }}
+                </label>
+            {% endfor %}
+        </div>
+
+        <button type="submit">Filter</button>
+        <a href="/">Reset</a>                          <!--link to reset the filters and go back to the main page-->
+    </form>
+
+    <hr>
+
+    <ul>
+        {% for product in products %}                                                   <!--list all the products in the database after filtering and display their name, price, category, description and tags-->
+            <li>
+                <strong>{{ product.name }}</strong> (${{ product.price }}) -
+                <em>{{ product.category.name }}</em>
+                <p>{{ product.description }}</p>
+                <small>Tags: {% for tag in product.tags.all %}{{ tag.name }} {% endfor %}</small>
+            </li>
+        {% empty %}
+            <li>No products found.</li>
+        {% endfor %}
+    </ul>
+</body>    
+</html>
