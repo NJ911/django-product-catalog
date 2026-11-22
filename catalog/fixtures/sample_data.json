@@ -1,0 +1,375 @@
+[
+{
+  "model": "catalog.category",
+  "pk": 1,
+  "fields": {
+    "name": "Electronics"
+  }
+},
+{
+  "model": "catalog.category",
+  "pk": 2,
+  "fields": {
+    "name": "Groceries"
+  }
+},
+{
+  "model": "catalog.category",
+  "pk": 3,
+  "fields": {
+    "name": "Furnitures"
+  }
+},
+{
+  "model": "catalog.category",
+  "pk": 4,
+  "fields": {
+    "name": "Health & Wellness"
+  }
+},
+{
+  "model": "catalog.category",
+  "pk": 5,
+  "fields": {
+    "name": "Kids"
+  }
+},
+{
+  "model": "catalog.tag",
+  "pk": 1,
+  "fields": {
+    "name": "New Arrivals"
+  }
+},
+{
+  "model": "catalog.tag",
+  "pk": 2,
+  "fields": {
+    "name": "Trending"
+  }
+},
+{
+  "model": "catalog.tag",
+  "pk": 3,
+  "fields": {
+    "name": "Clearance"
+  }
+},
+{
+  "model": "catalog.tag",
+  "pk": 4,
+  "fields": {
+    "name": "BOGO"
+  }
+},
+{
+  "model": "catalog.tag",
+  "pk": 5,
+  "fields": {
+    "name": "Black Friday Deal"
+  }
+},
+{
+  "model": "catalog.tag",
+  "pk": 6,
+  "fields": {
+    "name": "Eco-Friendly"
+  }
+},
+{
+  "model": "catalog.tag",
+  "pk": 7,
+  "fields": {
+    "name": "Free Shipping"
+  }
+},
+{
+  "model": "catalog.tag",
+  "pk": 8,
+  "fields": {
+    "name": "Staff Pick"
+  }
+},
+{
+  "model": "catalog.tag",
+  "pk": 9,
+  "fields": {
+    "name": "50% OFF"
+  }
+},
+{
+  "model": "catalog.tag",
+  "pk": 10,
+  "fields": {
+    "name": "Limited Stock"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 1,
+  "fields": {
+    "name": "Sony Earbuds",
+    "description": "Noise cancelling wireless earbuds",
+    "price": "79.00",
+    "category": 1,
+    "tags": [
+      5
+    ]
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 2,
+  "fields": {
+    "name": "Iceberg Lettuce",
+    "description": "Organically grown",
+    "price": "5.99",
+    "category": 2,
+    "tags": [
+      4
+    ]
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 3,
+  "fields": {
+    "name": "Streaming Stick",
+    "description": "4K UHD",
+    "price": "39.99",
+    "category": 1,
+    "tags": [
+      5
+    ]
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 4,
+  "fields": {
+    "name": "Foldable Table",
+    "description": "Good for camping",
+    "price": "45.99",
+    "category": 3,
+    "tags": [
+      3
+    ]
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 5,
+  "fields": {
+    "name": "Bamboo tooth brush",
+    "description": "Made out of bamboo",
+    "price": "12.99",
+    "category": 4,
+    "tags": [
+      6
+    ]
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 6,
+  "fields": {
+    "name": "Baby food",
+    "description": "For babies",
+    "price": "10.99",
+    "category": 5,
+    "tags": [
+      8
+    ]
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 7,
+  "fields": {
+    "name": "Nike shoes",
+    "description": "Brand new collection",
+    "price": "245.00",
+    "category": 4,
+    "tags": [
+      10
+    ]
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 8,
+  "fields": {
+    "name": "Tomatoes",
+    "description": "Organic",
+    "price": "4.99",
+    "category": 2,
+    "tags": [
+      4
+    ]
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 9,
+  "fields": {
+    "name": "T-Shirt",
+    "description": "Linen",
+    "price": "20.00",
+    "category": 4,
+    "tags": [
+      2
+    ]
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 10,
+  "fields": {
+    "name": "Toothpaste",
+    "description": "Dentist recommended",
+    "price": "7.99",
+    "category": 4,
+    "tags": [
+      8
+    ]
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 11,
+  "fields": {
+    "name": "Christmas Tree",
+    "description": "Decoration",
+    "price": "60.00",
+    "category": 3,
+    "tags": [
+      1
+    ]
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 12,
+  "fields": {
+    "name": "iPhone 18 pro max",
+    "description": "New release",
+    "price": "1599.00",
+    "category": 1,
+    "tags": [
+      1,
+      5,
+      7
+    ]
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 13,
+  "fields": {
+    "name": "HP Laptop",
+    "description": "Final sale",
+    "price": "400.00",
+    "category": 1,
+    "tags": [
+      3,
+      10
+    ]
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 14,
+  "fields": {
+    "name": "Diapers",
+    "description": "for babies",
+    "price": "25.99",
+    "category": 5,
+    "tags": [
+      4,
+      6
+    ]
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 15,
+  "fields": {
+    "name": "Bamboo Cutlery",
+    "description": "made with bamboo",
+    "price": "18.99",
+    "category": 3,
+    "tags": [
+      5,
+      6
+    ]
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 16,
+  "fields": {
+    "name": "Watermelon",
+    "description": "Organic",
+    "price": "12.99",
+    "category": 2,
+    "tags": [
+      4
+    ]
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 17,
+  "fields": {
+    "name": "Herman Miller Chair",
+    "description": "Comfortable",
+    "price": "950.00",
+    "category": 3,
+    "tags": [
+      1,
+      5,
+      10
+    ]
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 18,
+  "fields": {
+    "name": "Pain killers",
+    "description": "Medication",
+    "price": "7.99",
+    "category": 4,
+    "tags": [
+      3
+    ]
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 19,
+  "fields": {
+    "name": "Bose Speakers",
+    "description": "Alexa enabled",
+    "price": "250.00",
+    "category": 1,
+    "tags": [
+      1,
+      5
+    ]
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 20,
+  "fields": {
+    "name": "Rice",
+    "description": "10 kgs",
+    "price": "15.99",
+    "category": 2,
+    "tags": [
+      8
+    ]
+  }
+}
+]
