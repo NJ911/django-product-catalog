@@ -4,26 +4,37 @@ A simple Django web application that models products, categories, and tags, allo
 
 ## Setup & Run Instructions
 
-1. **Clone the repository:**
-   git clone https://github.com/NJ911/django-product-catalog.git <br>
+1. **Clone the repository**
+   ```
+   git clone <your-repository-url>
    cd django-product-catalog
+   ```
 
-2. **Create & activate a virtual environment:**
-   python -m venv venv <br>
-   source venv/bin/activate
+2. **Create and activate a virtual environment**
+   ```
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   ```
 
-3. **Install dependencies:**
+3. **Install dependencies**
+   ```
    pip install -r requirements.txt
+   ```
 
-4. **Run database migrations:**
+4. **Run database migrations**
+   ```
    python manage.py migrate
+   ```
 
-5. **Load sample data:**
+5. **Load sample data**
+   ```
    python manage.py loaddata sample_data.json
+   ```
 
-6. **Start the server:**
+6. **Start the server**
+   ```
    python manage.py runserver
-
+   ```
    Visit `http://127.0.0.1:8000/` in your browser to view the application, or `http://127.0.0.1:8000/admin/` to access the admin panel.
 
 ## Assumptions & Notes
